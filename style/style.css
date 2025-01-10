@@ -1,0 +1,80 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #f0dbdb;
+}
+
+
+.input-form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px;
+    border-radius: 15px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aliceblue;
+    width: 30%;
+    margin-top: 20px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    
+}
+.remove {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.input-form label {
+    margin-bottom: 3px;
+}
+
+.input-form input {
+    width: 80%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.input-form button {
+    padding: 7px;
+    width: 40%;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    transition: color 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.input-form button:hover {
+    color: black;
+    background-color: white;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 50px 25px;
+}
+
+.user-card {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.first-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-line span {
+    font-size: 2rem;
+    cursor: pointer;
+    color: red;
+}
